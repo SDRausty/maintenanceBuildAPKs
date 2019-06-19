@@ -5,6 +5,5 @@
 #####################################################################
 set -e 
 date=`date +%Y%m%d`
-time=`date +%H:%M:%S`
-utime=`date +%s`
-echo Commit on $date at $time and at $utime in Unix time.
+ntime=`date +%N`
+echo Commit $ntime on $date
